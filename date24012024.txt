@@ -1,0 +1,72 @@
+Date:24-01-2024
+
+
+* Trim method function witiout using trim method
+
+a=prompt("enter the string");
+b=" ";
+for(i=0;a[i]!=undefined;i++){
+    if(a[i]==" "){
+        continue;
+    }
+    b=b+a[i];
+}
+console.log(b);}
+
+spaceremove()
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* Split without using method
+
+var b="o"
+function splittinggg(b){
+    a="Hello World";
+    var c="";
+    var d=[];
+    for(var i=0;a[i]!=undefined;i++){
+        c="";
+        for(var j=i;j<a.length;j++){
+            
+        if(a[j]==b){
+             d.push(c);
+            break;
+        }
+        c=c+a[i];
+        i++;
+       
+        }
+    }
+    d.push(c);
+    console.log(d);
+}
+splittinggg(b);
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+*slice without using method
+
+var a=+prompt("enter the starting index")
+
+var b=+prompt("enter the end index")
+var c="";
+
+for(i=a;i<d.length;i++){
+
+ if(i==b){
+
+break;
+
+ }
+
+c=c+d[i];
+
+ }
+
+ console.log(c);
+
+ }
+
+ slicee()
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

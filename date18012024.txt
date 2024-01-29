@@ -1,0 +1,83 @@
+Date:18-01-2024
+
+
+doing all previous tasks using functions
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+function tables(){
+var a=prompt("enter the starting table:");
+var b=prompt("enter the ending table:")
+for(i=a;i<=b;i++){
+    for(j=1;j<=10;j++){
+        console.log(i+"*"+j+"="+i*j)
+    }
+}
+}
+
+tables();
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+function month(){
+a =+ prompt("Enter the number to see the month:");
+•	switch(a){
+•	    case 1:
+•	        console.log("January");
+•	        break;
+•	    case 2:
+•	        console.log("February");
+•	        break;
+•	    case 3:
+•	        console.log("March");
+•	        break;
+•	    case 4:
+•	        console.log("April");
+•	        break;   
+•	    case 5:
+•	        console.log("May");
+•	        break; 
+•	    case 6:
+•	        console.log("June");
+•	        break;
+•	    case 7:
+•	        console.log("July");
+•	        break;
+•	    case 8:
+•	        console.log("August");
+•	        break; 
+•	    case 9:
+•	        console.log("september");
+•	        break;
+•	    case 10:
+•	        console.log("october");
+•	        break;
+•	    case 11:
+•	        console.log("November");
+•	        break;
+•	    case 12:
+•	        console.log("December");
+•	        break;    
+•	}
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+function evenoddrepeat(){
+var a=prompt("enter the string");
+for(i=0;i<a.length;i++){
+    if(a[i]%2==0){
+        for(j=0;j<a[i];j++){
+            console.log("-----------------------")
+            console.log("it as even:",a[i]);
+        }
+    }else{
+         for(h=0;h<a[i];h++){
+             console.log("------------------------")
+            console.log("it is an odd",a[i]);
+        }
+    }
+}
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+function evenoddterenary(){
+var a=+ prompt("enter the number:");
+
+(a%2==0) ? console.log("a is even",a):console.log("a is odd",a);
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

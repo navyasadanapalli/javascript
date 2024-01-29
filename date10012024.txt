@@ -1,0 +1,73 @@
+Date-10-01-2024
+
+
+Task using switch
+
+-------------------------------------------------------------------------------------------------------
+•	a =+ prompt("Enter the number to see the month:");
+•	switch(a){
+•	    case 1:
+•	        console.log("January");
+•	        break;
+•	    case 2:
+•	        console.log("February");
+•	        break;
+•	    case 3:
+•	        console.log("March");
+•	        break;
+•	    case 4:
+•	        console.log("April");
+•	        break;   
+•	    case 5:
+•	        console.log("May");
+•	        break; 
+•	    case 6:
+•	        console.log("June");
+•	        break;
+•	    case 7:
+•	        console.log("July");
+•	        break;
+•	    case 8:
+•	        console.log("August");
+•	        break; 
+•	    case 9:
+•	        console.log("september");
+•	        break;
+•	    case 10:
+•	        console.log("october");
+•	        break;
+•	    case 11:
+•	        console.log("November");
+•	        break;
+•	    case 12:
+•	        console.log("December");
+•	        break;    
+•	}
+
+-------------------------------------------------------------------------------------------------------------
+
+
+•	a=5;
+•	b=10;
+•	c=prompt("Enter the operation to perform:")
+•	switch(c){
+•	    case "addition":
+•	        console.log(a+b);
+•	        break;
+•	    case "substraction":
+•	        console.log(a-b);
+•	        break;
+•	    case "multi":
+•	        console.log(a*b);
+•	        break;
+•	    case "division":
+•	        console.log(a/b);
+•	        break;
+•	    case "exponential":
+•	        console.log(a**b);
+•	         break;
+•	    case "modulus":
+•	        console.log(a%b);
+•	        break;
+•	    
+•	}
