@@ -1,0 +1,21 @@
+date:08-01-2024
+
+
+Greatest of two num using terenary operator
+
+
+var a=+ prompt("enter the number:");
+
+var b=+ prompt("enter the number:");
+
+a>b ? console.log("a is greater",a):console.log("b is greater",b);
+
+
+
+
+*even or odd using terenary operator
+
+
+var a=+ prompt("enter the number:");
+
+(a%2==0) ? console.log("a is even",a):console.log("a is odd",a);

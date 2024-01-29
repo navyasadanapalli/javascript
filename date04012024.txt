@@ -1,0 +1,21 @@
+date: 04-01-2024
+
+find even odd number 
+
+n=+prompt("enter a number:")
+if(n%2==0)
+console.log("the given number is even")
+
+else{
+    console.log("the given number is odd")
+}
+
+
+greates of the number:
+
+var a=+ prompt("enter the number:");
+if(a>0){
+    console.log("it is positive num:",a)
+}else{
+    console.log("it is negetive num:",a)
+}
